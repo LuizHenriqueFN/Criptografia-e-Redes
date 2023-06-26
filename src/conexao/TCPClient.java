@@ -60,17 +60,19 @@ public class TCPClient {
                     case 1:
                         break;
                     case 2:
+                        input.nextLine();
                         System.out.print("Endereço do servidor: ");
                         serverAddress = input.nextLine();
-                        break;
+                        continue;
                     case 3:
                         System.out.println("Porta do servidor: ");
                         serverPort = input.nextInt();
-                        break;
+                        continue;
                     case 4:
+                        input.nextLine();
                         System.out.print("Insira a mensagem que será criptografada: ");
                         message = input.nextLine();
-                        break;
+                        continue;
                     case 5:
                         input.close();
                         return;
