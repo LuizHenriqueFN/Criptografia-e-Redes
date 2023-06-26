@@ -15,6 +15,16 @@ Exemplo:
 2- Exibe o menu para confirmar a configuração:
 
 ![image](https://github.com/LuizHenriqueFN/Criptografia-e-Redes/assets/92808528/9c9f04b5-a201-4558-aa64-614a1e1db0e1)
+  
+  - Opções:
+
+    case 1: Habilita o servidor.
+  
+    case 2: Pede ao usuário o novo endereço do servidor e atualiza a variável serverAddress.
+    
+    case 3: Pede ao usuário a nova porta do servidor e atualiza a variável serverPor
+  
+    default: Exibe uma mensagem de erro e continua para a próxima iteração do loop (Exibindo o menu novamente).
 
 3- Quando ativado exibe a mensagem de aguardando conexão:
 
@@ -39,6 +49,20 @@ Exemplo:
 4- Exibe o menu para confirmar as informações:
 
 ![image](https://github.com/LuizHenriqueFN/Criptografia-e-Redes/assets/92808528/6d8d94ee-4bca-493c-8c4f-a0ff877c73e7)
+
+  - Opções:
+
+    case 1: Executa a conexão.
+  
+    case 2: Pede ao usuário o novo endereço do servidor e atualiza a variável serverAddress.
+    
+    case 3: Pede ao usuário a nova porta do servidor e atualiza a variável serverPort.
+    
+    case 4: Pede ao usuário a nova mensagem a ser criptografada e atualiza a variável message.
+    
+    case 5: Encerra o programa.
+    
+    default: Exibe uma mensagem de erro e continua para a próxima iteração do loop (Exibindo o menu novamente).
 
 5- Solicita a porta onde sera realizado o envio dos dados:
 
